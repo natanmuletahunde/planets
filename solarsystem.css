@@ -1,0 +1,74 @@
+.title {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+
+.div_navs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input1,
+.input2,
+.button1 {
+  width: 200px;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  align-items: center;
+  text-align: center;
+}
+
+.bg {
+  background: linear-gradient(45deg, #675f5f, #7462ff);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: calc(100vw);
+  background-size: cover;
+  height: calc(100vh);
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.optionDiv {
+  margin-left: 550px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1;
+}
+
+.option {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.option:hover {
+  background-color: #f1f1f1;
+}
+
+.planetInfo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:#7061CC;
+  padding: 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin-top: 100px;
+}
+.planetInfo img {
+  max-width: 200px;
+}
